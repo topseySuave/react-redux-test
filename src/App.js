@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import UserList from './containers/user-list';
+import UserDetails from './containers/user-details';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
             <UserList />
             <hr />
             <h1>User Detail</h1>
+            <UserDetails />
         </div>
     );
   }
