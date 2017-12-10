@@ -6,7 +6,7 @@ export default () => {
             lastName: 'Doe',
             age: 24,
             description: 'I am a introvert',
-            thumbnail: 'http://api.adorable.com/@adorable/future.jpg'
+            thumbnail: 'https://api.adorable.io/avatars/285/doe@adorable.png?v=2.0.1'
         },
         {
             id: 2,
@@ -14,7 +14,7 @@ export default () => {
             lastName: 'Matt',
             age: 30,
             description: 'I am a Phlegmatic',
-            thumbnail: 'http://api.adorable.com/@adorable/gab.jpg'
+            thumbnail: 'https://api.adorable.io/avatars/285/matt@adorable.png?v=2.0.1'
         },
         {
             id: 3,
@@ -22,7 +22,7 @@ export default () => {
             lastName: 'Smith',
             age: 25,
             description: 'I am a extrovert',
-            thumbnail: 'http://api.adorable.com/@adorable/sam.jpg'
+            thumbnail: 'https://api.adorable.io/avatars/285/smith@adorable.png?v=2.0.1'
         },
     ];
 }

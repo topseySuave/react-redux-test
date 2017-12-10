@@ -3,9 +3,11 @@ import {connect} from 'react-redux';
 
 class UserDetails extends Component{
     render(){
-        const user = this.props.user;
+        const user = this.props.activeUser;
         if(!user){
-            return (<div>select a user.....</div>);
+            return (
+                <div>select a user.....</div>
+            );
         }
         return (
             <div>
